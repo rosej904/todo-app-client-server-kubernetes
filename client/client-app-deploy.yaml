@@ -13,6 +13,6 @@ spec:
         app: todo-client-app
     spec:
       containers:
-      - image: todo-client-kubernetes-app:latest
-        name: container1
+      - image: zot.lan:5000/todo-app-client:latest
+        name: todo-app-client
         imagePullPolicy: IfNotPresent

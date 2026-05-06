@@ -13,8 +13,8 @@ spec:
         app: todo-server-app
     spec:
       containers:
-      - image: todo-server-kubernetes-app:latest
-        name: container1
+      - image: zot.lan:5000/todo-app-server:latest
+        name: todo-app-server
         ports:
         - containerPort: 5000
         imagePullPolicy: IfNotPresent

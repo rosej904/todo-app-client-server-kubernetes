@@ -1,0 +1,11 @@
+resources:
+  - server/mongodb-pod.yaml
+  - server/mongodb-service.yaml
+  - server/persistent-vol-claim-server-app.yaml
+  - server/server-app-configs.yaml
+  - server/server-app-deploy.yaml
+  - server/server-app-service.yaml
+  - client/client-app-deploy.yaml
+  - client/client-app-service.yaml
+generatorOptions:
+  disableNameSuffixHash: true
